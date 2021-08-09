@@ -7,7 +7,7 @@
     <main class="main">
         <?php
         $kind_slug = get_query_var('kind');
-        $kind = get_term_by('slug','$kind_slug','kind');
+        $kind = get_term_by('slug',$kind_slug,'kind');
         ?>
         <section class="sec">
             <div class="container">
